@@ -133,12 +133,12 @@ if(pg_num_rows($res2)) { // Invoice Details found
 		<td align="right" class="detail">'.number_format($tots['before_tax'], 2,'.','').'</td>
 	</tr>
 	<tr valign="top">
-		<td class="detail" colspan="2"><b>GST #</b> 106966591</td>
+		<td class="detail" colspan="2"><b>GST #</b> '._GST_NO_.'</td>
 		<td class="detail" align="right"><b>GST @ </b>'.number_format((100*$assoc['gst_rate']),3,'.','').'%</td>
 		<td align="right" class="detail">'.number_format($tots['gst_amt'], 2,'.','').'</td>
 	</tr>
 	<tr valign="top">
-		<td class="detail" colspan="2"><b>PST #</b> 1006010110TQ0012</td>
+		<td class="detail" colspan="2"><b>PST #</b> '._PST_NO_.'</td>
 		<td class="detail" align="right"><b>PST @ </b>'.number_format((100*$assoc['pst_rate']),3,'.','').'%</td>
 		<td align="right" class="detail">'.number_format($tots['pst_amt'], 2,'.','').'</td>
 	</tr>';

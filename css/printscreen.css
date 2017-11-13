@@ -1,0 +1,119 @@
+body {
+	font-family: verdana,arial,helvetica,sans-serif;
+	background-color: #ffffff;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+}
+div.invoice-page {
+	margin: 5px 10px;
+}
+div.invoice-image-header {
+	margin: 5px;
+	padding: 0;
+}
+div.invoice-image-header img{	
+	float: left;
+}
+div.logo-address {
+	float: left;
+	font-size: 11px;
+	color:#000;
+	
+}
+div.logo-invoice-number {
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+div.clear-all {
+	clear: both;
+}
+div.inv-date {
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+div.address {
+	padding: 0 10px;
+}
+div.address div.billto {
+	width: 48%;
+	float: left;
+	font-size: 12px;
+}
+div.address div.shipto {
+	width: 48%;
+	float: right;
+	font-size: 12px;
+}
+div.inv-po {
+	margin: 5px 10px;
+	font-size: 13px;
+	font-weight: bold;	
+}
+div.invoice-details {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-top: 4px solid #c0c0c0;
+	border-bottom: 4px solid #c0c0c0;
+	
+}
+div.invoice-details table {
+	width: 100%;
+	border: 0;
+}
+th {
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: underline;
+}
+td.detail {
+	font-size: 11px;
+}
+
+td.description {
+	font-size: 9pt;
+	text-transform: capitalize;
+}
+
+td.divider{
+	width: 100%;
+	border-top: 4px solid #c0c0c0;
+}
+div.footer {
+	margin: 5px 10px;
+	font-size: 11px;
+}
+.salutation {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+.rev {
+	text-align: right;
+	font-size: 10px;
+	padding-right: 11px;
+	padding-bottom: 0;
+}
+div.page-no {
+	float: right;
+	font-size: 9px;
+}
+div.thank-you {
+	width: 90%;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+}
+div#paid {
+	background: #C0C0C0  url(images/paid.gif) no-repeat fixed center center;	
+}
+div#paid div.logo-address {
+	background-color: transparent;
+}

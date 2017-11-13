@@ -1,0 +1,229 @@
+body {
+	font-family: verdana,arial,helvetica,"sans serif";
+	background-color: #ffffff;
+	color: #000000;
+	margin: 0;
+}
+
+@media print {
+	.noprint {
+		display: none;
+	}
+	#org-code {
+		display: none;
+	}
+	margin: 20px 0 0 20px;	
+}
+div#content {
+	margin: 20px 0 10px 20px;
+}
+
+a:link {	
+	color:#003399;
+	background-color: #ffffff; 
+}
+
+a:visited {	
+	color:#0051CA;
+	background-color: #ffffff; 
+}
+
+a:active {	
+	color:#999999;
+	background-color: #ffffff; 
+}
+
+a.register {
+	font-size: 12px;
+}
+
+h1 {
+	font-size: 15px;
+}
+
+h2 {
+	font-size: 13px;
+	margin-top: 3em;
+}
+
+h3 {
+	font-size: 11px;
+}
+ul.instructions {
+	font-size: 12px;
+}
+	
+ul, ol {
+	font-size: 14px;
+}
+p {
+	font-size: 11px;
+}
+	
+.error {
+	color: #003399;
+	font-size: 12px;
+	background-color: #ffffff;
+}
+
+
+.instructions {
+	font-size: 12px;
+}
+
+
+select, input.submit {
+	font-family: verdana,arial,helvetica,"sans serif";
+	font-size: 10px;
+}
+
+input.text, textarea.text {
+	font-size: 10px;
+}
+
+/* Form required field */
+.required {
+	color: #000000;
+	background-color: #C0C0C0;
+}
+
+/* Invoice Specs */
+
+.invname {
+	font-size: 14px;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.head {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.details {
+	font-size: 11px;
+}
+.detail {
+	/* invoice line detail */
+	font-size: 12px;
+}
+.address {
+	font-size: 10px;
+}
+
+.compname{
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.po {
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.thead {
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: underline;
+}
+	
+span.concordia{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+p.address {
+	font-size: 11px;
+}
+
+p.invdate{
+	text-align: right;
+	font-size: 11px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+hr.sep {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.deleted {
+	color: #000000;
+	background-color: #FFFF00;
+}
+
+.addold{
+	color: #000000;
+	background-color: #C0C0C0;
+}
+table.paid {
+	background: #C0C0C0  url(images/paid.gif) no-repeat fixed center center;	
+}
+table.paid td {
+	background-color: transparent;
+}
+
+#customertable tr td{
+	font-size: 10px;
+}
+
+table#invoice-payment-summary-detail, 
+table#new-invoice-payment, 
+table#invoice-summary-detail,
+table#company-list {
+	margin-top: 1.5em;
+}
+table#invoice-payment-summary-detail td.detail, 
+table#new-invoice-payment td, 
+table#invoice-summary-detail td.detail, 
+table#company-list td, 
+table#statement tr td {
+	font-size: 10px;
+}
+
+#summary-detail {
+	margin-top: 10px;
+}
+#summary-detail td {
+	font-size: 10px;
+}
+table#user-list {
+	font-size: 11px;
+}
+table#statement tr td.right {
+	text-align: right;
+}
+
+p#customer,
+p#myinvoice, 
+p#myinvoice-misc {
+	padding: 1em;
+	border: thin dotted #C0C0C0;
+}
+
+.heading{
+	padding-right: 15.2em;
+	border-right: 1px solid black;
+}
+.heading-tx{
+	padding-right: 17.25em;
+	padding-left: 2em;
+}
+.heading-ship{
+	padding-right: 19.50em;
+	
+}
+.heading-ship-tx{
+	padding-right: 20.5em;
+	padding-left: 2em;
+}
+.heading-total{
+	padding-right: 18.25em;
+}
+p.exempt {
+	font-weight: bold;
+	font-size: 12px;
+}
